@@ -1,4 +1,4 @@
-
+require("dotenv").config();
 
 const mongo=require("mongoose")
 const mongo_url=process.env.MONGODB_URL
@@ -13,7 +13,7 @@ mongo.set('strictQuery', false)
     }).then(
         console.log("succefully connected")
     ).catch(error=>{
-        console.log("connection faild hogya")
+        console.log("connection faild hogya re baba ")
         process.exit(1)
     }
     )
