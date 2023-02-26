@@ -1,5 +1,5 @@
 const mongo=require("mongoose")
-const mongo_url="mongodb://localhost:27017/dashboard"
+const mongo_url=process.env.MONGODB_URL
 // const mongo_url="mongodb+srv://md:8800@cluster0.hzxrinb.mongodb.net/?retryWrites=true&w=majority"
 
 
