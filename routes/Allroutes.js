@@ -40,8 +40,8 @@ router.route("/find/:id").get( findOneProduct);
 router.route("/search/:id").get( tokenverifying,searchOne);
 
 
-// testing 
-router.route("/product").post((req,res)=>{
+// testing  route
+router.route("/md").get((req,res)=>{
 	res.send("<h2>this is working</h2>")
 });
 
