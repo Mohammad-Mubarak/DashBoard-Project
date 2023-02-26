@@ -25,7 +25,7 @@ To run this project locally, you will need to have Node.js and MongoDB installed
 
 Clone the repository:
 
-git clone https://github.com/your-username/e-commerce-dashboard.git
+git clone[https://github.com/Mohammad-Mubarak/DashBoard-Project.git]
 Navigate to the project directory:
 
 
