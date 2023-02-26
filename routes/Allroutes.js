@@ -39,4 +39,10 @@ router.route("/find/:id").get( findOneProduct);
 // searching route
 router.route("/search/:id").get( tokenverifying,searchOne);
 
+
+// testing 
+router.route("/product").post((req,res)=>{
+	res.send("<h2>this is working</h2>")
+});
+
 module.exports = router;
